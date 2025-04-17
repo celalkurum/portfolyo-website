@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celal Kurum - Siber Güvenlik Uzmanı</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">CK</div>
+            <div class="nav-links">
+                <a href="#home">Ana Sayfa</a>
+                <a href="#about">Hakkımda</a>
+                <a href="#projects">Projeler</a>
+                <a href="#certificates">Sertifikalar</a>
+                <a href="#contact">İletişim</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Celal Kurum</h1>
+            <h2>Siber Güvenlik Uzmanı & Güvenli Yazılım Geliştirici</h2>
+            <p>Dijital dünyayı daha güvenli hale getiriyorum</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="profile-img">
+                <div class="security-badge"></div>
+            </div>
+            <div class="about-text">
+                <h2>Hakkımda</h2>
+                <p>Siber güvenlik alanında uzmanlaşmış bir yazılım geliştiriciyim. Güvenli sistem mimarisi tasarlama, güvenlik açığı tespiti ve etik hacking konularında deneyimliyim. Amacım, kurumların dijital varlıklarını korumak ve güvenli yazılım çözümleri geliştirmektir.</p>
+                <div class="skills">
+                    <h3>Uzmanlık Alanları</h3>
+                    <ul>
+                        <li>Penetrasyon Testi</li>
+                        <li>Güvenli Yazılım Geliştirme</li>
+                        <li>Ağ Güvenliği</li>
+                        <li>Güvenlik Açığı Analizi</li>
+                        <li>Kriptografi</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projeler</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="images/vuln-scanner.svg" alt="Güvenlik Açığı Tarama Sistemi" loading="lazy">
+                <h3>Güvenlik Açığı Tarama Sistemi</h3>
+                <p>Otomatik güvenlik açığı tarama ve raporlama sistemi geliştirme projesi.</p>
+                <div class="project-tech">
+                    <span>Python</span>
+                    <span>Docker</span>
+                    <span>REST API</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/auth-system.svg" alt="Güvenli Kimlik Doğrulama Sistemi" loading="lazy">
+                <h3>Güvenli Kimlik Doğrulama Sistemi</h3>
+                <p>Çok faktörlü kimlik doğrulama ve yetkilendirme sistemi implementasyonu.</p>
+                <div class="project-tech">
+                    <span>Node.js</span>
+                    <span>JWT</span>
+                    <span>OAuth 2.0</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/network-security.svg" alt="Ağ İzleme Platformu" loading="lazy">
+                <h3>Ağ İzleme Platformu</h3>
+                <p>Gerçek zamanlı ağ trafiği analizi ve tehdit tespiti platformu.</p>
+                <div class="project-tech">
+                    <span>Go</span>
+                    <span>Elasticsearch</span>
+                    <span>React</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="certificates">
+        <h2>Sertifikalar & Başarılar</h2>
+        <div class="cert-grid">
+            <div class="cert-card">
+                <h3>CEH - Certified Ethical Hacker</h3>
+                <p>EC-Council</p>
+            </div>
+            <div class="cert-card">
+                <h3>OSCP - Offensive Security Certified Professional</h3>
+                <p>Offensive Security</p>
+            </div>
+            <div class="cert-card">
+                <h3>CompTIA Security+</h3>
+                <p>CompTIA</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>İletişim</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">İsim</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-posta</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mesaj</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Gönder</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="#" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank">GitHub</a>
+            <a href="#" target="_blank">Twitter</a>
+        </div>
+        <p>&copy; 2024 Celal Kurum. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
